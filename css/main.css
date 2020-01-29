@@ -1,0 +1,65 @@
+body{margin: 0 15% 0 15%}
+
+/* header */
+.h_top{
+    background-color: transparent; 
+    text-align:right;
+    margin: 5px 0 0 0
+}
+.h_top img{height:30px}
+.h_top .logout{ height:30px; width:50px; border-style: none; background-color: rgb(179, 179, 179);outline: none;}
+
+.h_bottom .logo{float:left;}
+.h_bottom .logo img{height:70px}
+.h_bottom .menu{float:right;}
+.h_bottom .menu .icon-bar{background-color: rgb(77, 76, 76);}
+.h_bottom .menu .nav a{font-family: 'Do Hyeon', sans-serif; color:rgb(77, 76, 76); font-size:20px}
+.h_bottom .menu .nav a:hover{border-bottom:2px solid rgb(96, 107, 255);; transition:0.5s; background-color: transparent; color: rgb(96, 107, 255);}
+
+nav{margin : 5px 0 0 0}
+
+/* section - jumbotron*/
+section{padding-top:70px}
+section .jumbotron{height:300px; font-family: 'Indie Flower', cursive; color:white}
+
+/* article */
+article{font-family: 'Do Hyeon', sans-serif;}
+.panel-heading{height: 25px; }
+.panel-heading h3{float:left; background-color: white;font-size: 20px}
+.panel-heading button{float:right; border:none; background-color: transparent;}
+
+.bar{height:2px; background-color: gray; width:70%; display:block; float:right}
+
+.panel-body ul{display: block; padding-left:0; list-style-type: none; line-height:30px}
+.panel-body a{color:rgb(105, 105, 105);}
+
+
+/* footer */
+footer{background-color: #ffffff; columns: #000000;}
+
+
+/* 크기변화 */
+@media screen and (max-width:1235px){
+    body{margin: 0 10% 0 10%}
+
+    /* header */
+    .h_top img{height:20px}
+    .h_top .logout{ height:20px; width:40px;  background-color: transparent;}
+    .glyphicon-log-out{font-size:14px}
+    .h_bottom .logo img{height:60px}
+    
+    /* article */
+    .col-md-4{width:100%}
+}
+
+@media screen and (max-width:880px){
+    body{margin: 0 5% 0 5%}
+
+    /* header */
+    .h_top img{height:15px}
+    .h_top .logout{ height:15px; width:30px;}
+    .glyphicon-log-out{font-size:12px}
+    .h_bottom .logo img{height:50px}
+
+    
+}
